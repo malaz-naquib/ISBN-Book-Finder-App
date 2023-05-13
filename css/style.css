@@ -1,0 +1,73 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  background-image: url('../img/libraryimage.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+input {
+  text-align: center;
+  margin-left: 41%;
+  padding: 0 1%;
+}
+
+.addedBooks {
+  margin-left: 25%;
+  margin-top: 2%;
+  border: 1px solid black;
+  width: 50%;
+  background-color: black;
+  opacity: 1.0;
+  border-radius: 15%;
+}
+
+h2 {
+  color: white;
+    margin-left: 30%;
+    font-size: 1.9rem;
+}
+
+li {
+  color: white;
+}
+
+ol {
+  margin-left: 30%;
+}
+
+button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 5px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  opacity: 1.0;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
